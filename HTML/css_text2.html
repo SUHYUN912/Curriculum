@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .decLetter {
+            letter-spacing: -3px;
+        }
+
+        .incLetter {
+            letter-spacing: 10px;
+        }
+
+        .decWord {
+            word-spacing: -3px;
+        }
+
+        .incWord {
+            word-spacing: 10px;
+        }
+
+        #overL {
+            text-decoration: overline;
+        }
+
+        #throughL {
+            text-decoration: line-through;
+        }
+
+        #underL {
+            text-decoration: underline;
+        }
+
+        #noL a {
+            text-decoration: none;
+        }
+
+        #declh {
+            line-height: 0.8;
+        }
+
+        #inclh {
+            line-height: 1.8;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>글자 간격 설정</h1>
+    <p class="decLetter">글자 간격 3px 줄이기</p>
+    <p>기본 글자 간격</p>
+    <p class="incLetter">글자 간격 10px 늘리기</p>
+    <hr>
+    <p class="decWord">단어 간격 3px 줄이기</p>
+    <p>기본 단어 간격</p>
+    <p class="incWord">단어 간격 10px 늘리기</p>
+    <hr>
+    <p id="overL">글자에 윗줄 긋기</p>
+    <p id="throughL">글자에 통과선 긋기</p>
+    <p id="underL">글자에 밑줄 긋기</p>
+    <p id="noL"><a href="#">링크에 생기는 밑줄 없애기</a></p>
+    <hr>
+    <p id="declh">여기에는 <br> 줄 간격을 0.8로 줄여보세요.</p>
+    <p>여기에는 <br> 기본 줄 간격</p>
+    <p id="inclh">여기에는 <br> 줄 간격을 1.8로 늘려보세요.</p>
+</body>
+
+</html>
